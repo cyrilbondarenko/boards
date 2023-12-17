@@ -1,0 +1,29 @@
+@import url('assets/fonts/fontawesome/css/all.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply w-[1024px] mx-auto;
+}
+
+.button {
+    @apply bg-secondary px-8 py-1 rounded text-main;
+}
+
+h1 {
+    @apply text-2xl mb-2;
+}
+
+h2 {
+    @apply text-xl mb-2;
+}
+
+section {
+    @apply py-2;
+}
+
+section.board {
+    @apply py-2 max-h-full h-[calc(100%-48px)];
+}
